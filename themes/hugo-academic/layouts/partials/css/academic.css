@@ -78,16 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
-
-  /* Ensure long words do not overflow into content. */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-
-  /* Add a hyphen where the word breaks (use `&shy;` to insert a soft-hyphen in a word). */
-  -webkit-hyphens: manual;
-  -ms-hyphens: manual;
-  hyphens: manual;
+  overflow-wrap: break-word; /* Ensures very long heading words do not overflow into content. */
 }
 h1 {
   font-size: 2.25rem;
@@ -523,15 +514,6 @@ a[data-fancybox] img {
 }
 
 /*************************************************
- *  Widgets (common)
- **************************************************/
-
-.see-all {
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-/*************************************************
  *  Hero Widget
  **************************************************/
 
@@ -559,58 +541,22 @@ a[data-fancybox] img {
 
 .hero-overlay .hero-title,
 .hero-overlay .hero-lead,
-.hero-overlay .hero-cta-alt,
-.hero-overlay .hero-note {
+.hero-overlay .btn {
   color: #fff;
-  /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/ /* Uncomment to standout on complicated backgrounds. */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
-.hero-overlay a:not(.hero-overlay .btn) {
+.hero-overlay a {
   color: #fff;
 }
 
 .hero-overlay .hero-lead a {
-  text-decoration: underline;
-}
-
-.hero-overlay .cta-btns {
-  margin-bottom: 16px;
-}
-
-.hero-overlay .btn {
-  color: {{ .Get "primary_dark" }};
-  padding: .6em 2.1em;
-}
-
-a.hero-cta-alt {
-  display: inline-block;
-  position: relative;
-  transition-duration: .2s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-  font-size: 1.1rem;
-}
-
-a.hero-cta-alt:active,
-a.hero-cta-alt:focus,
-a.hero-cta-alt:hover {
-  transform: scale(1.1);
+  color: #fff;
+  text-decoration-line: underline;
 }
 
 .hero-overlay .btn-lg {
   font-size: 1.1rem;
-}
-
-.hero-overlay .hero-note {
-  font-size: 0.8rem;
-}
-
-.hero-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
 }
 
 /*************************************************
@@ -645,7 +591,7 @@ a.hero-cta-alt:hover {
 }
 
 /*************************************************
- *  About widget
+ *  Biography
  **************************************************/
 
 #profile {
@@ -654,7 +600,7 @@ a.hero-cta-alt:hover {
   position: relative;
 }
 
-.portrait {
+#profile .portrait {
   width: 200px;
   height: 200px;
   margin: 0 auto;
@@ -662,14 +608,14 @@ a.hero-cta-alt:hover {
   object-fit: cover;
 }
 
-.portrait-title h2 {
+#profile .portrait-title h2 {
   font-size: 1.75em;
   font-weight: 300;
   color: #000000;
   margin: 20px 0 10px 0;
 }
 
-.portrait-title h3 {
+#profile .portrait-title h3 {
   font-size: 1rem;
   font-weight: 300;
   color: rgba(0,0,0, 0.54);
@@ -729,40 +675,6 @@ ul.ul-edu li .description p.course {
 ul.ul-edu li .description p.institution {
   font-size: 0.75rem;
   color: rgba(0,0,0,0.6);
-}
-
-/*************************************************
- *  People widget
- **************************************************/
-
-.people-widget {
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-.people-widget .portrait-title h2 {
-  font-size: 1rem;
-}
-
-.people-widget .portrait-title h3 {
-  font-size: 0.7rem;
-}
-
-.people-widget .portrait {
-  width: 80%;
-  max-width: 150px;
-  height: auto;
-}
-
-@media (min-width: 576px) {
-  .people-widget  .col-sm-auto {
-    max-width: 30% !important;
-  }
-}
-@media (min-width: 992px) {
-  .people-widget  .col-sm-auto {
-    max-width: 20% !important;
-  }
 }
 
 /*************************************************
@@ -864,6 +776,12 @@ article {
   box-sizing: border-box;
 }
 
+/* Prevent FA's line height of 1 causing FA button links to be taller than other button links. */
+.btn-links .fab,
+.btn-links .fas {
+  line-height: inherit !important;
+}
+
 .split-header-image {
   position: relative; /* Required for caption positioning */
   clear: both;
@@ -878,32 +796,6 @@ article {
 .article-banner {
   width: 100%;
   height: auto;
-}
-
-.featured-image {
-  width: 100%;
-  background-position: left;
-  background-origin: border-box;
-  background-size: cover;
-  height: 60vh;
-  min-height: 500px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto
-}
-
-@media screen and (max-width: 1199px) {
-  .featured-image {
-    min-height: 400px;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .featured-image {
-    min-height: 300px;
-  }
 }
 
 .article-header-caption {
@@ -1132,34 +1024,14 @@ article .article-metadata {
 }
 
 /*************************************************
- *  List items
+ *  Publications
  **************************************************/
-
-.view-list-item {
-  margin-bottom: 1rem;
-}
 
 .pub-icon {
   color: rgba(0, 0, 0, 0.54);
   font-size: 0.81em;
-  padding-right: 6px;
+  padding-top: 6px;
 }
-
-.view-list-item .article-metadata {
-  margin-bottom: 0;
-}
-
-.pub-list-item .pub-abstract {
-  font-size: 1rem;
-}
-
-.pub-list-item .btn-links {
-  padding-top: 10px;
-}
-
-/*************************************************
- *  Publications
- **************************************************/
 
 .pub-banner {
   max-width: 100%;
@@ -1168,8 +1040,39 @@ article .article-metadata {
   margin-right: auto;
 }
 
+.pub .pub-authors {
+  font-style: italic;
+  line-height: 30px; /* Match share bar line height. */
+}
+
 .pub-row-heading {
   font-weight: bold;
+}
+
+.pub-list-item .pub-abstract {
+  font-size: 1rem;
+}
+
+.pub-list-item .pub-authors {
+  line-height: normal;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.54);
+}
+
+.pub-list-item .pub-publication {
+  color: rgba(0,0,0,0.54);
+  font-size: 0.9rem;
+}
+
+
+.dark .pub-authors,
+.dark .pub-publication {
+  color: rgba(255,255,255,0.54);
+}
+
+.pub-list-item .btn-links {
+  padding-top: 10px;
 }
 
 #container-publications {
@@ -1283,30 +1186,6 @@ article .article-metadata {
 
 .isotope-item:hover{
   z-index: 3;
-}
-
-/*************************************************
- *  Accomplishments
- **************************************************/
- 
-.course {
-  margin-bottom: -0.5rem;
-}
-
-.course h6 {
-  font-size: 0.80rem;
-  font-weight: 700;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-
-.course h6 a {
-  border-bottom: solid 1px transparent;
-}
-
-.course h6 a:hover {
-  border-bottom: solid 1px;
-  text-decoration: none;
 }
 
 /*************************************************
@@ -1513,29 +1392,6 @@ a.badge:hover {
   color: rgba(0,0,0,.68);
 }
 
-.tag-cloud a {
-  display: inline-block;
-  position: relative;
-  margin: 5px 10px;
-  word-wrap: break-word;
-  transition-duration: .2s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-}
-
-.tag-cloud a:active,
-.tag-cloud a:focus,
-.tag-cloud a:hover {
-  color: {{ .Get "primary_dark" }};
-  transform: scale(1.2);
-}
-
-.dark .tag-cloud a:active,
-.dark .tag-cloud a:focus,
-.dark .tag-cloud a:hover {
-  color: {{ .Get "primary_light" }};
-}
-
 /*************************************************
  *  Button size override
  *************************************************/
@@ -1547,13 +1403,8 @@ a.badge:hover {
   border-radius: .3rem;
 }
 
-.btn-links .btn {
-  padding: 5px .5rem 5px .5rem;
-  line-height: 1;
-}
-
 .btn.btn-sm {
-  padding: 5px .4rem 5px .4rem;
+  padding: .4rem;
   font-size: .6rem;
   border-radius: .2rem;
 }
@@ -1905,7 +1756,7 @@ table > tbody > tr:hover > th {
  *  Alerts
  **************************************************/
 
-div.alert > div {
+div.alert p {
   position: relative;
   display: block;
   font-size: 1rem;
@@ -1914,15 +1765,7 @@ div.alert > div {
   margin-bottom: 0;
 }
 
-div.alert div > * {
-  margin-bottom: .5rem;  /* Use smaller paragraph spacing than usual. */
-}
-
-div.alert div > :last-child {
-  margin-bottom: 0;
-}
-
-div.alert > div:first-child::before {
+div.alert p:first-child::before {
   position: absolute;
   top: -0.5rem;
   left: -2rem;
@@ -1935,7 +1778,7 @@ div.alert > div:first-child::before {
   text-align: center;
 }
 
-div.alert-warning > div:first-child::before {
+div.alert-warning p:first-child::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   color: #ff3860;
@@ -2293,11 +2136,11 @@ body.dark,
   color: #fff;
 }
 
-.dark .portrait-title h2 {
+.dark #profile .portrait-title h2 {
   color: #fff;
 }
 
-.dark .portrait-title h3 {
+.dark #profile .portrait-title h3 {
   color: rgba(255, 255, 255, 0.54);
 }
 

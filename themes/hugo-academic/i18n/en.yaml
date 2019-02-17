@@ -75,14 +75,6 @@
 - id: education
   translation: Education
 
-- id: user_profile_latest
-  translation: Latest
-
-# Accomplishments widget
-
-- id: see_certificate
-  translation: See certificate
-
 # Experience widget
 
 - id: present
@@ -91,7 +83,7 @@
 # Publications widget
 
 - id: more_publications
-  translation: See all publications
+  translation: More Publications
 
 # Posts widget
 
@@ -99,12 +91,12 @@
   translation: CONTINUE READING
 
 - id: more_posts
-  translation: See all posts
+  translation: More Posts
 
 # Talks widget
 
 - id: more_talks
-  translation: See all talks
+  translation: More Talks
 
 # Contact widget
 
@@ -146,26 +138,13 @@
 - id: location
   translation: Location
 
-- id: pub_uncat
-  translation: Uncategorized
+# Filtering
 
-- id: pub_conf
-  translation: Conference paper
+- id: filter_by_type
+  translation: Filter by type
 
-- id: pub_journal
-  translation: Journal article
-
-- id: pub_manuscript
-  translation: Manuscript
-
-- id: pub_report
-  translation: Report
-
-- id: pub_book
-  translation: Book
-
-- id: pub_book_section
-  translation: Book section
+- id: filter_all
+  translation: All
 
 # Project details
 

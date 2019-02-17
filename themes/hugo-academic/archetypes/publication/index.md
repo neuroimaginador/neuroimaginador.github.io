@@ -1,9 +1,10 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = [""]
 
 # Publication type.
 # Legend:
@@ -20,21 +21,12 @@ publication_types = ["0"]
 publication = ""
 publication_short = ""
 
-# Abstract.
+# Abstract and optional shortened version.
 abstract = ""
+abstract_short = ""
 
-# Summary. An optional shortened abstract.
-summary = ""
-
-# Digital Object Identifier (DOI)
-doi = ""
-
-# Is this a featured publication? (true/false)
-featured = false
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+# Is this a selected publication? (true/false)
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -52,6 +44,10 @@ projects = []
 #   Otherwise, set `slides = ""`.
 slides = ""
 
+# Tags (optional).
+#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+tags = []
+
 # Links (optional).
 url_pdf = ""
 url_preprint = ""
@@ -65,7 +61,10 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# links = [{name = "Custom Link", url = "http://example.org"}]
+# url_custom = [{name = "Custom Link", url = "http://example.org"}]
+
+# Digital Object Identifier (DOI)
+doi = ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

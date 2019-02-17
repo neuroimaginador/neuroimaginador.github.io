@@ -103,54 +103,18 @@
    * Filter publications.
    * --------------------------------------------------------------------------- */
 
-  // Active publication filters.
-  let pubFilters = {};
-
-  // Search term.
-  let searchRegex;
-
-  // Filter values (concatenated).
-  let filterValues;
-
-  // Publication container.
   let $grid_pubs = $('#container-publications');
-
-  // Initialise Isotope.
   $grid_pubs.isotope({
     itemSelector: '.isotope-item',
     percentPosition: true,
     masonry: {
       // Use Bootstrap compatible grid layout.
       columnWidth: '.grid-sizer'
-    },
-    filter: function() {
-      let $this = $(this);
-      let searchResults = searchRegex ? $this.text().match( searchRegex ) : true;
-      let filterResults = filterValues ? $this.is( filterValues ) : true;
-      return searchResults && filterResults;
     }
   });
 
-  // Filter by search term.
-  let $quickSearch = $('.filter-search').keyup( debounce( function() {
-    searchRegex = new RegExp( $quickSearch.val(), 'gi' );
-    $grid_pubs.isotope();
-  }) );
-
-  // Debounce input to prevent spamming filter requests.
-  function debounce( fn, threshold ) {
-    let timeout;
-    threshold = threshold || 100;
-    return function debounced() {
-      clearTimeout( timeout );
-      let args = arguments;
-      let _this = this;
-      function delayed() {
-        fn.apply( _this, args );
-      }
-      timeout = setTimeout( delayed, threshold );
-    };
-  }
+  // Active publication filters.
+  let pubFilters = {};
 
   // Flatten object by concatenating values.
   function concatValues( obj ) {
@@ -171,10 +135,10 @@
     pubFilters[ filterGroup ] = this.value;
 
     // Combine filters.
-    filterValues = concatValues( pubFilters );
+    let filterValues = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope();
+    $grid_pubs.isotope({ filter: filterValues });
 
     // If filtering by publication type, update the URL hash to enable direct linking to results.
     if (filterGroup == "pubtype") {
@@ -201,10 +165,10 @@
     // Set filter.
     let filterGroup = 'pubtype';
     pubFilters[ filterGroup ] = filterValue;
-    filterValues = concatValues( pubFilters );
+    let filterValues = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope();
+    $grid_pubs.isotope({ filter: filterValues });
 
     // Set selected option.
     $('.pubtype-select').val(filterValue);
@@ -310,16 +274,12 @@
     if ($('body').hasClass('dark')) {
       $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
       $('body').removeClass('dark');
-      $('link[title=hl-light]')[0].disabled = false;
-      $('link[title=hl-dark]')[0].disabled = true;
       $('.js-dark-toggle i').removeClass('fa-sun');
       $('.js-dark-toggle i').addClass('fa-moon');
       localStorage.setItem('dark_mode', '0');
     } else {
       $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
       $('body').addClass('dark');
-      $('link[title=hl-light]')[0].disabled = true;
-      $('link[title=hl-dark]')[0].disabled = false;
       $('.js-dark-toggle i').removeClass('fa-moon');
       $('.js-dark-toggle i').addClass('fa-sun');
       localStorage.setItem('dark_mode', '1');
@@ -339,14 +299,10 @@
     let dark_mode = parseInt(localStorage.getItem('dark_mode') || default_mode);
     if (dark_mode) {
       $('body').addClass('dark');
-      $('link[title=hl-light]')[0].disabled = true;
-      $('link[title=hl-dark]')[0].disabled = false;
       $('.js-dark-toggle i').removeClass('fa-moon');
       $('.js-dark-toggle i').addClass('fa-sun');
     } else {
       $('body').removeClass('dark');
-      $('link[title=hl-light]')[0].disabled = false;
-      $('link[title=hl-dark]')[0].disabled = true;
       $('.js-dark-toggle i').removeClass('fa-sun');
       $('.js-dark-toggle i').addClass('fa-moon');
     }
@@ -475,12 +431,10 @@
     });
     $(document).on('keydown', function(e){
       if (e.which == 27) {
-        // `Esc` key pressed.
         if ($('body').hasClass('searching')) {
           toggleSearchDialog();
         }
-      } else if (e.which == 191 && e.shiftKey == false && !$('input,textarea').is(':focus')) {
-        // `/` key pressed outside of text input.
+      } else if (e.which == 191) {
         e.preventDefault();
         toggleSearchDialog();
       }

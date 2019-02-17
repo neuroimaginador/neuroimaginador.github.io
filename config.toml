@@ -62,7 +62,7 @@ enableGitInfo = false
   organizations = [ { name = "Universidad de Málaga", url = "https://www.uma.es/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "foto_bn.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "foto_bn.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "dominlopez@uma.es"

@@ -1,20 +1,21 @@
 {{ $is_list := .is_list }}
 {{ $ := .content }}
-{{ $link := "" }}
 
 {{ with $.Params.url_preprint }}
-  {{ $resource := $.Resources.GetMatch . }}
-  {{ if $resource }}
-    {{ $link = $resource.RelPermalink }}
-  {{ else }}
-    {{ $link = . | relURL }}
-  {{ end }}
+{{ $link := . }}
+{{ if not (urls.Parse .).Scheme }}
+{{ $link = (printf "%s%s" $.Dir .) | relURL }}
+{{ end }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
   {{ i18n "btn_preprint" }}
 </a>
 {{ end }}
 {{ $pdf := "" }}
-{{ $resource := $.Resources.GetMatch (printf "%s.pdf" $.File.ContentBaseName) }}
+{{ $slug := "" }}
+{{ if eq $.File.TranslationBaseName "index" }}{{/* Check if using dir-based page bundles. */}}
+  {{ $slug = delimit (last 1 (split (substr $.Dir 0 -1) "/")) "" }}
+{{ end }}
+{{ $resource := $.Resources.GetMatch (printf "%s.pdf" $slug) }}
 {{ with $resource }}
   {{ $pdf = .RelPermalink }}
 {{ else }}
@@ -35,23 +36,19 @@
 </button>
 {{ end }}
 {{ with $.Params.url_code }}
-  {{ $resource := $.Resources.GetMatch . }}
-  {{ if $resource }}
-    {{ $link = $resource.RelPermalink }}
-  {{ else }}
-    {{ $link = . | relURL }}
-  {{ end }}
+{{ $link := . }}
+{{ if not (urls.Parse .).Scheme }}
+{{ $link = (printf "%s%s" $.Dir .) | relURL }}
+{{ end }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
   {{ i18n "btn_code" }}
 </a>
 {{ end }}
 {{ with $.Params.url_dataset }}
-  {{ $resource := $.Resources.GetMatch . }}
-  {{ if $resource }}
-    {{ $link = $resource.RelPermalink }}
-  {{ else }}
-    {{ $link = . | relURL }}
-  {{ end }}
+{{ $link := . }}
+{{ if not (urls.Parse .).Scheme }}
+{{ $link = (printf "%s%s" $.Dir .) | relURL }}
+{{ end }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
   {{ i18n "btn_dataset" }}
 </a>
@@ -74,12 +71,10 @@
 {{ end }}
 {{ end }}
 {{ with $.Params.url_poster }}
-  {{ $resource := $.Resources.GetMatch . }}
-  {{ if $resource }}
-    {{ $link = $resource.RelPermalink }}
-  {{ else }}
-    {{ $link = . | relURL }}
-  {{ end }}
+{{ $link := . }}
+{{ if not (urls.Parse .).Scheme }}
+{{ $link = (printf "%s%s" $.Dir .) | relURL }}
+{{ end }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
   {{ i18n "btn_poster" }}
 </a>
@@ -92,35 +87,29 @@
   {{ end }}
 {{ else }}
 {{ with $.Params.url_slides }}
-  {{ $resource := $.Resources.GetMatch . }}
-  {{ if $resource }}
-    {{ $link = $resource.RelPermalink }}
-  {{ else }}
-    {{ $link = . | relURL }}
-  {{ end }}
+{{ $link := . }}
+{{ if not (urls.Parse .).Scheme }}
+{{ $link = (printf "%s%s" $.Dir .) | relURL }}
+{{ end }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
   {{ i18n "btn_slides" }}
 </a>
 {{ end }}
 {{ end }}
 {{ with $.Params.url_video }}
-  {{ $resource := $.Resources.GetMatch . }}
-  {{ if $resource }}
-    {{ $link = $resource.RelPermalink }}
-  {{ else }}
-    {{ $link = . | relURL }}
-  {{ end }}
+{{ $link := . }}
+{{ if not (urls.Parse .).Scheme }}
+{{ $link = (printf "%s%s" $.Dir .) | relURL }}
+{{ end }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
   {{ i18n "btn_video" }}
 </a>
 {{ end }}
 {{ with $.Params.url_source }}
-  {{ $resource := $.Resources.GetMatch . }}
-  {{ if $resource }}
-    {{ $link = $resource.RelPermalink }}
-  {{ else }}
-    {{ $link = . | relURL }}
-  {{ end }}
+{{ $link := . }}
+{{ if not (urls.Parse .).Scheme }}
+{{ $link = (printf "%s%s" $.Dir .) | relURL }}
+{{ end }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
   {{ i18n "btn_source" }}
 </a>
@@ -130,7 +119,7 @@
   DOI
 </a>
 {{ end }}
-{{ range $.Params.links }}
+{{ range $.Params.url_custom }}
   {{ $pack := or .icon_pack "fas" }}
   {{ $pack_prefix := $pack }}
   {{ if in (slice "fab" "fas" "far" "fal") $pack }}
@@ -140,12 +129,7 @@
   {{ $scheme := (urls.Parse $link).Scheme }}
   {{ $target := "" }}
   {{ if not $scheme }}
-    {{ $resource := $.Resources.GetMatch .url }}
-    {{ if $resource }}
-      {{ $link = $resource.RelPermalink }}
-    {{ else }}
-      {{ $link = .url | relURL }}
-    {{ end }}
+    {{ $link = (printf "%s%s" $.Dir .url) | relURL }}
   {{ else if in (slice "http" "https") $scheme }}
     {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
   {{ end }}
