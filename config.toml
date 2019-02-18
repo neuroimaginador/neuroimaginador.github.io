@@ -66,7 +66,7 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "dominlopez@uma.es"
-  address = "Despacho 2.2.16, Matemática Aplicada"
+  address = "Departamento de Matemática Aplicada (Despacho 2.2.16)<br> ETSI Informática y Telecomunicaciones <br> Campus de Teatinos"
   office_hours = ""
   phone = ""
   skype = ""
@@ -293,10 +293,10 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-[[menu.main]]
-  name = "Bio"
-  url = "/bio/"
-  weight = 2
+#[[menu.main]]
+#  name = "Bio"
+#  url = "/bio/"
+#  weight = 2
 
 [[menu.main]]
   name = "Blog"
@@ -304,12 +304,12 @@ enableGitInfo = false
   weight = 3
 
 [[menu.main]]
-  name = "Teaching"
+  name = "Docencia"
   url = "#teaching"
   weight = 4
   
 [[menu.main]]
-  name = "Contact"
+  name = "Contacto"
   url = "#contact"
   weight = 5
 

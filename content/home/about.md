@@ -15,31 +15,36 @@ weight = 5
     "Data Analysis/Statistics",
     "Education & Teaching",
     "Open Source",
-    "[RLadies](https://rladies.org/)"
+    "Machine Learning",
+    "Deep Learning",
+    "Neuroimage",
+    "R"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Developmental Psychology & Quantitative Methods"
-  institution = "Vanderbilt University"
-  year = 2008
+  course = "Doctor, especialidad en Matemática Aplicada"
+  institution = "Universidad de Málaga"
+  year = 2007
 
 [[education.courses]]
-  course = "MSc in Developmental Psychology"
-  institution = "Vanderbilt University"
-  year = 2005
+  course = "Licenciado en Matemáticas"
+  institution = "Universidad de Málaga"
+  year = 2001
 
-[[education.courses]]
-  course = "BSc in Applied Psychology"
-  institution = "Georgia Institute of Technology"
-  year = 2002
- 
 +++
 
 # Background
 
-I am a Data Scientist & Professional Educator at [RStudio](https://rstudio.com). We develop free and open source tools to make it easier and more fun to do data science with the statistical programming language [<i class="fab fa-r-project"></i>](https://www.r-project.org). We also create software to help teams who use R to share and publish their work.
+Actualmente soy profesor en la Universidad de Málaga, España, en el Departamento de Matemática Aplicada. 
 
-I studied psychology and quantitative methods, receiving my Ph.D. from Vanderbilt University (2008). For eight years, I was a professor and scientist at Oregon Health & Science University, where my research was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks. I have written numerous scientific journal articles and book chapters on autism and neurodevelopmental disorders. 
+Estudié la licenciatura en Matemáticas en esta misma universidad, y después conseguí el título de Doctor al defender mi tesis, que trataba sobre un nuevo método de optimización matemática, con aplicación a las redes de neuronas artificiales.
 
-I have developed and delivered workshops, graduate-level courses, and curricula based on teaching R, the [tidyverse](https://www.tidyverse.org/), and [literate programming](https://bookdown.org/yihui/blogdown/). You can follow my current work for [RStudio Education on GitHub <i class="fab fa-github-alt"></i>](https://github.com/rstudio-education).
+En ese trayecto, me especialicé en redes neuronales, aprendizaje computacional y análisis de imágenes, publicando diversos artículos en revistas internacionales en esas temáticas.
+
+Durante 9 años, antes de aterrizar en la Universidad, estuve trabajando como gestor de I+D en una empresa privada, donde me terminé de especializar en el tratamiento digital de imagen médica, concretamente en Neuroimagen, elaborando productos y servicios relacionados con el uso de nuevas tecnologías en Neurociencias.
+
+Gracias a ello, aprendí el lenguaje de programación R, en el que he desarrollado más de 20 paquetes, que es el que uso para mi investigación y, en parte, para la docencia.
+
+Soy coorganizador del [Grupo de Usuarios de R en Málaga](https://malagarusers.netlify.com/), e imparto un curso enteramente online sobre [R para Ciencia de Datos](https://fguma.es/course/r-ciencia-datos/).
+

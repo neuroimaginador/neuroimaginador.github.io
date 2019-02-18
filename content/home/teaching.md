@@ -7,7 +7,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Teaching"
+title = "Docencia"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -15,15 +15,14 @@ weight = 60
 
 +++
 
-I developed and taught the following graduate-level courses at [Oregon Health & Science University](https://www.ohsu.edu):
+Curso 2018-2019:
 
-- [Principles & Practice of Data Visualization](https://apreshill.github.io/data-vis-labs-2018/) (co-instructors: Drs. Steven Bedrick and Jackie Wirz)
-- [Probability & Statistics for Scientists and Engineers](https://ohsu-math630.netlify.com/) 
-- [Introduction to Data Wrangling, Analysis, & Communication](https://ohsu-conj620.netlify.com/)
-- [Data Science Programming](https://github.com/apreshill/ohsu-ds-programming) (co-instructor)
+- Primer Semestre:
+  - [Cálculo y Análisis Vectorial](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52196/) en los Grados de Ingeniería de Sistemas de Telecomunicación, de Sonido e Imagen, de Sistemas Electrónicos y de Telemática.
+- Segundo Semestre:
+  - [Estructuras Algebraicas para la Computación](https://www.uma.es/centers/subject/etsi-informatica/5103/51143/) en el Grado de Ingeniería de Computadores y en el de Ingeniería del Software.
+  - La parte de Numérico de [Estadística y Métodos Numéricos](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52202/) en los Grados de Sistemas de Telecomunicación y de Telemática.
 
-I have also:
+También:
 
-- Created the DataCamp.com course [Working with Data in the Tidyverse](https://www.datacamp.com/courses/working-with-data-in-the-tidyverse); the second course in the ["Tidyverse Fundamentals" track](https://www.datacamp.com/tracks/tidyverse-fundamentals)
-
-- Consulted on the development of the [Data Science Specialization for the University of Oregon College of Education](https://github.com/uo-datasci-specialization).
+- Curso online de [R para Ciencia de Datos](https://fguma.es/course/r-ciencia-datos/) a través de la Fundación General de la Universidad de Málaga.
