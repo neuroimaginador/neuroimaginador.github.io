@@ -29,6 +29,18 @@ pre code {
 }
 */
 
+a,
+h3.article-title a:hover {
+  color: #6b8ab8;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+
+a:hover,
+a:focus {
+  color: #556e93;
+}
+
 /* make article links like Lithium theme with underline and box */
 .article-style a {
   border-bottom: 1px solid rgba(132, 214, 211, 0.5);

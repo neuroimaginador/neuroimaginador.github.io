@@ -104,6 +104,7 @@ enableGitInfo = false
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
   color_theme = "alison"
+  day_night = true
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -332,12 +333,20 @@ enableGitInfo = false
 [[menu.main]]
   name = "Docencia"
   url = "#teaching"
-  weight = 4
+  weight = 3
   
 [[menu.main]]
   name = "Contacto"
   url = "#contact"
-  weight = 5
+  weight = 4
+
+# Search.
+[params.search]
+  # Search provider:
+  #   0: No search engine
+  #   1: Built-in (Fuse)
+  #   2: Algolia (https://www.algolia.com)
+  engine = 1
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -358,8 +367,8 @@ enableGitInfo = false
 #   Refer to https://sourcethemes.com/academic/docs/language/
 
 # Configure the English version of the website.
-[languages.en]
-  languageCode = "en-us"
+#[languages.en]
+#  languageCode = "en-us"
 [languages.es]
   languageCode = "es-es"
 
