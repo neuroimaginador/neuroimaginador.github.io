@@ -336,6 +336,27 @@ enableGitInfo = false
   weight = 3
   
 [[menu.main]]
+  name = "I+D"
+  identifier = "research"
+  #url = "/publication/"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Publicaciones"
+  url = "/publication/"
+  parent = "research"
+
+  [[menu.main]]
+  name = "Proyectos"
+  url = "/project/"
+  parent = "research"
+
+  [[menu.main]]
+  name = "Desarrollo"
+  url = "/development/"
+  parent = "research"
+
+[[menu.main]]
   name = "Contacto"
   url = "#contact"
   weight = 4
