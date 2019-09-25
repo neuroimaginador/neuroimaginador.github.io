@@ -47,4 +47,3 @@ Durante 9 años, antes de aterrizar en la Universidad, estuve trabajando como ge
 Gracias a ello, aprendí el lenguaje de programación R, en el que he desarrollado más de 20 paquetes, que es el que uso para mi investigación y, en parte, para la docencia.
 
 Soy coorganizador del [Grupo de Usuarios de R en Málaga](https://malagarusers.netlify.com/), e imparto un curso enteramente online sobre [R para Ciencia de Datos](https://fguma.es/course/r-ciencia-datos/).
-

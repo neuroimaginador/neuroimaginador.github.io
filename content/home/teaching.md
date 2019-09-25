@@ -15,14 +15,15 @@ weight = 60
 
 +++
 
-Curso 2018-2019:
+Curso 2019-2020:
 
 - Primer Semestre:
   - [Cálculo y Análisis Vectorial](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52196/) en los Grados de Ingeniería de Sistemas de Telecomunicación, de Sonido e Imagen, de Sistemas Electrónicos y de Telemática.
 - Segundo Semestre:
   - [Estructuras Algebraicas para la Computación](https://www.uma.es/centers/subject/etsi-informatica/5103/51143/) en el Grado de Ingeniería de Computadores y en el de Ingeniería del Software.
-  - La parte de Numérico de [Estadística y Métodos Numéricos](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52202/) en los Grados de Sistemas de Telecomunicación y de Telemática.
+  - La parte de Numérico de [Estadística y Métodos Numéricos](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52202/) en los Grados de Ingeniería de Sonido e Imagen y de Telemática.
 
 También:
 
 - Curso online de [R para Ciencia de Datos](https://fguma.es/course/r-ciencia-datos/) a través de la Fundación General de la Universidad de Málaga.
+- Curso de formación del PDI de la Universidad de Málaga de [R para Ciencia de Datos]().
