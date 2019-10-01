@@ -320,10 +320,10 @@ enableGitInfo = false
 #  url = "/bio/"
 #  weight = 2
 
-[[menu.main]]
-  name = "Otros Cursos"
-  url = "/curso/"
-  weight = 3
+#[[menu.main]]
+#  name = "Otros Cursos"
+#  url = "/curso/"
+#  weight = 3
 
 #[[menu.main]]
 #  name = "Blog"
