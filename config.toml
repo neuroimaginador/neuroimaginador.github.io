@@ -315,15 +315,15 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-#[[menu.main]]
-#  name = "Bio"
-#  url = "/bio/"
-#  weight = 2
+[[menu.main]]
+  name = "Bio"
+  url = "/bio/"
+  weight = 2
 
 [[menu.main]]
-  name = "Cursos"
+  name = "Otros Cursos"
   url = "/curso/"
-  weight = 2
+  weight = 3
 
 #[[menu.main]]
 #  name = "Blog"
@@ -333,13 +333,13 @@ enableGitInfo = false
 [[menu.main]]
   name = "Docencia"
   url = "#teaching"
-  weight = 3
+  weight = 2
   
 [[menu.main]]
   name = "I+D"
   identifier = "research"
   #url = "/publication/"
-  weight = 3
+  weight = 4
   
   [[menu.main]]
   name = "Publicaciones"
@@ -359,7 +359,7 @@ enableGitInfo = false
 [[menu.main]]
   name = "Contacto"
   url = "#contact"
-  weight = 4
+  weight = 5
 
 # Search.
 [params.search]

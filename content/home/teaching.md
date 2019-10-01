@@ -26,4 +26,4 @@ Curso 2019-2020:
 También:
 
 - Curso online de [R para Ciencia de Datos](https://fguma.es/course/r-ciencia-datos/) a través de la Fundación General de la Universidad de Málaga.
-- Curso de formación del PDI de la Universidad de Málaga de [R para Ciencia de Datos]().
+- Curso de formación del PDI de la Universidad de Málaga de [R para Ciencia de Datos](www.uma.es).
