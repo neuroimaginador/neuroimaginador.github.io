@@ -336,30 +336,27 @@ enableGitInfo = false
   weight = 2
   
 [[menu.main]]
-  name = "I+D"
-  identifier = "research"
-  #url = "/publication/"
-  weight = 4
-  
-  [[menu.main]]
   name = "Publicaciones"
   url = "/publication/"
-  parent = "research"
+  #url = "/publication/"
+  weight = 3
+  
+  
 
   [[menu.main]]
   name = "Proyectos"
   url = "/project/"
-  parent = "research"
+  weight = 4
 
   [[menu.main]]
   name = "Desarrollo"
   url = "/development/"
-  parent = "research"
+  weight = 5
 
 [[menu.main]]
   name = "Contacto"
   url = "#contact"
-  weight = 5
+  weight = 6
 
 # Search.
 [params.search]

@@ -127,3 +127,10 @@ a.badge-github:focus,
 a.badge-github:hover {
   color: #fff;
 }
+
+/**************************
+* Section spacing
+**************************/
+.home-section {
+    padding: 20px 0 20px 0;
+  }
