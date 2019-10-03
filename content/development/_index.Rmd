@@ -134,6 +134,7 @@ library(ggthemes)
 ## Actually plot
 my_pal = solarized_pal("green")(6)
 rebase <- ggthemes:::solarized_rebase()
+
 library(ggiraph)
 p <- ggplot() +
   geom_tile(data = filter(p_data, is.na(type)), width = 6, height = .8, aes(x, y, fill = type)) +
