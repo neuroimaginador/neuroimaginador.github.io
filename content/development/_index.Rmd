@@ -10,7 +10,7 @@ image:
   focal_point: ''
 ---
 
-Contribuciones en Github (actualizado a `r Sys.Date()`):
+Contribuciones en Github en el último año (actualizado a `r Sys.Date()`):
 
 ```{r, include = FALSE}
 library(tidyverse)
@@ -168,3 +168,7 @@ tooltip_css <- "background: #002b36; opacity: 1; color: #839496; border-radius: 
 girafe_options(x, opts_tooltip(css = tooltip_css))
 
 ```
+
+Principales paquetes de R desarrollados:
+
+- [wf4ni](/pkgs/wf4ni): Generación de _workflows_ específicos para Neuroimagen desde R, para favorecer la investigación reproducible.
