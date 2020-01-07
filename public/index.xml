@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domingo López Rodríguez on Domingo López Rodríguez</title>
+    <link>/</link>
+    <description>Recent content in Domingo López Rodríguez on Domingo López Rodríguez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>&amp;copy; Domingo López Rodríguez 2019</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources</title>
+      <link>/project/2019-flair/2019-flair/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2019-flair/2019-flair/</guid>
+      <description>&lt;p&gt;Due to the inherent incompleteness of our different information sources, handling imperfect information is a fundamental and unavoidable feature of everyday life. The adequate management of imperfect information is essential in applications, not only in Artificial Intelligence, but also in Social Sciences.&lt;/p&gt;
+
+&lt;p&gt;This proposal is determined by our long-term vision: the adequate languages for this framework should be based on the formal grounds of algebra and logic.&lt;/p&gt;
+
+&lt;p&gt;Analyzing the state-of-the-art on algebraic, logic, and fuzzy approaches to the management of imperfect information, our initial hypothesis is based on the following premises:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Many real-world problems are difficult to formalize by using classical methods, and a more general formal framework is needed in which approximate reasoning and/or imperfect information comes into play.&lt;/li&gt;
+&lt;li&gt;Further efforts are needed on foundational research about imperfect information so that unifying approaches can be found by abstracting particular details and extracting the basic mechanisms of execution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This foundational research has to be necessarily done on a step-by-step basis. This is why we focus on specific topics in which our research team has proven proficiency, and we propose a scheme in which we will work in parallel in several lines.&lt;/p&gt;
+
+&lt;p&gt;Our long-term vision should lead to a thorough formal theory of imperfect information, and the expected breakthrough towards this aim is the development of foundations for certain selected areas of interest, namely, the study of the mathematical and logic-based approaches to imperfect information, fuzzy inference systems using F-transform and measures of inconsistency, and a case study on Digital Forensics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>URSUS-DM: Nuevos desarrollos en minería de datos para su utilización en la sostenibilidad urbana</title>
+      <link>/project/2019-ursus-dm/2019-ursusd-dm/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2019-ursus-dm/2019-ursusd-dm/</guid>
+      <description>&lt;p&gt;El objetivo general de este proyecto es la generación de conocimiento y procedimientos basados en técnicas de inteligencia artificial y minería de datos que permitan abordar y resolver diferentes problemas relacionados con la sostenibilidad urbana.&lt;/p&gt;
+
+&lt;p&gt;La propuesta es investigar y desarrollar nuevos modelos basados en datos para caracterizar los problemas y las relaciones, desarrollar nuevos métodos de minería de datos híbridos para el descubrimiento de conocimientos utilizando datos heterogéneos y construir herramientas de simulación para apoyar la toma de decisiones.&lt;/p&gt;
+
+&lt;p&gt;Se centrará en los desafíos planteados en diferentes áreas de la sostenibilidad urbana: en el contexto del cambio climático (aumento de las temperaturas y del efecto isla de calor urbana) y en el campo de la generación de electricidad a través de las energías renovables. Ambos problemas están incluidos en los desafíos sociales europeos y españoles.&lt;/p&gt;
+
+&lt;p&gt;En el contexto del cambio climático, se analizará el papel de la infraestructura verde en la mitigación del efecto isla de calor, teniendo en cuenta sus características y distribución geográfica. Se obtendrá un modelo para estudiar, en diferentes escenarios de cambio climático, los resultados esperados cuando se utilizan elementos de enverdecimiento urbano en las áreas más desfavorables.&lt;/p&gt;
+
+&lt;p&gt;En el contexto de la generación eléctrica, el objetivo principal de este proyecto es la generación de conocimiento, metodologías y procedimientos basados en técnicas de inteligencia artificial y minería de datos que permitan acercarse y dar solución a los desafíos que surgen en la gestión inteligente y automática de sistemas de autoconsumo fotovoltaico, incluido su mejor integración en la red eléctrica.&lt;/p&gt;
+
+&lt;p&gt;Para garantizar que se alcanzan los objetivos planteados en el proyecto, éste debe ser desarrollado por un equipo multidisciplinar. Por un lado, es necesaria la participación de investigadores con experiencia en el desarrollo de nuevos algoritmos y modelos de minería de datos. Por otro lado, es necesaria la participación activa de investigadores en los dos campos de aplicación en los que trabajará el proyecto, es decir, investigadores en la integración de áreas verdes urbanas y la planificación del paisaje e investigadores en sistemas fotovoltaicos.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, en el plan de trabajo también se incluye la participación de un arquitecto y expertos en el mercado energético necesarios para el desarrollo de las aplicaciones que se proponen en el proyecto.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curso de R para Ciencia de Datos</title>
+      <link>/curso/r-ciencia-datos/</link>
+      <pubDate>Mon, 18 Feb 2019 15:13:09 +0100</pubDate>
+      
+      <guid>/curso/r-ciencia-datos/</guid>
+      <description>
+
+&lt;h1 id=&#34;r-para-ciencia-de-datos-https-fguma-es-course-r-ciencia-datos&#34;&gt;&lt;a href=&#34;https://fguma.es/course/r-ciencia-datos/&#34; target=&#34;_blank&#34;&gt;R para Ciencia de Datos&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;En este curso se pretende dar una visión introductoria al lenguaje de programación R para tareas de análisis de datos, incluyendo la realización de informes y visualizaciones avanzadas, presentando técnicas propias del aprendizaje computacional como un valor añadido.&lt;/p&gt;
+
+&lt;p&gt;El alumno será capaz de generar fácilmente documentos técnicos incluyendo análisis de datos reales, junto con visualización avanzada, lo cual es de especial importancia tanto en la academia como en la industria, donde el uso de herramientas integradas (como R y RStudio) permiten la creación de un workflow de trabajo robusto, reproducible y, al ser R un lenguaje de prototipado rápido, conseguir resultados en un menor tiempo.&lt;/p&gt;
+
+&lt;p&gt;Este curso, por tanto, capacita al alumno en la realización de estudios de análisis de datos con herramientas que permiten su replicabilidad y su publicación en formato documento técnico.&lt;/p&gt;
+
+&lt;h2 id=&#34;información&#34;&gt;Información&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;25 horas online&lt;/li&gt;
+&lt;li&gt;1 crédito ECTS&lt;/li&gt;
+&lt;li&gt;Certificado UMA&lt;/li&gt;
+&lt;li&gt;+info: 951 952 075/082&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;programa&#34;&gt;Programa&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Instalación de R y RStudio.&lt;/li&gt;
+&lt;li&gt;Estructuras de datos, flujo de control, programación funcional en R.&lt;/li&gt;
+&lt;li&gt;Análisis de datos: fase de preprocesamiento.&lt;/li&gt;
+&lt;li&gt;Análisis de datos: fase de visualización.&lt;/li&gt;
+&lt;li&gt;Aprendizaje computacional: técnicas básicas.&lt;/li&gt;
+&lt;li&gt;Generación de informes y presentaciones con RMarkdown.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;docentes&#34;&gt;Docentes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ángel Mora Bonilla&lt;/li&gt;
+&lt;li&gt;Domingo López Rodríguez&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Energy-aware acceleration on GPUs: Findings on a bioinformatics benchmark</title>
+      <link>/publication/2018-gpu/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CC BY SA</title>
+      <link>/license/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/license/</guid>
+      <description>&lt;p&gt;My &lt;a href=&#34;/post/&#34;&gt;blog posts&lt;/a&gt; and &lt;a href=&#34;/tutorial/&#34;&gt;tutorials&lt;/a&gt; are released under a &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;i class=&#34;fab fa-creative-commons fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-by fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-sa fa-2x&#34;&gt;&lt;/i&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>/talk/blogdown-meetup/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/blogdown-meetup/</guid>
+      <description>&lt;p&gt;We will cover:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;blogdown&lt;/strong&gt; R package&lt;/li&gt;
+&lt;li&gt;Hugo themes&lt;/li&gt;
+&lt;li&gt;Adding content to personalize your site&lt;/li&gt;
+&lt;li&gt;Posting&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t want to blog? / just want to knit?&lt;/li&gt;
+&lt;li&gt;Customizing themes&lt;/li&gt;
+&lt;li&gt;Troubleshooting common problems&lt;/li&gt;
+&lt;li&gt;Deployment options and recommendations&lt;/li&gt;
+&lt;li&gt;Domain options available through RStudio/rbind&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are planning on attending this workshop, please click on the HTML link above for how to prepare before the workshop.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/blogdown-meetup.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Probabilistic PCA self-organizing maps</title>
+      <link>/publication/2009-probabilistic-pca-self-organizing-maps/</link>
+      <pubDate>Wed, 19 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2009-probabilistic-pca-self-organizing-maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving neural networks for mechanism kinematic chain isomorphism identification</title>
+      <link>/publication/2007-improving/</link>
+      <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2007-improving/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
