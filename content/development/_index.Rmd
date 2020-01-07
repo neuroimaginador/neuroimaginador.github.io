@@ -172,4 +172,4 @@ girafe_options(x, opts_tooltip(css = tooltip_css))
 Principales paquetes de R desarrollados:
 
 - [wf4ni](/pkgs/wf4ni): Generación de _workflows_ específicos para Neuroimagen desde R, para favorecer la investigación reproducible.
-- [fcaR](/pkgs/fcaR): Herramientas para realizar análi_sis formal de conceptos (For_mal Concept Analysis), trabajar con contextos formales, retículos de conceptos e implicaciones.
+- [fcaR](/pkgs/fcaR): Herramientas para realizar análisis formal de conceptos (Formal Concept Analysis), trabajar con contextos formales, retículos de conceptos e implicaciones.
