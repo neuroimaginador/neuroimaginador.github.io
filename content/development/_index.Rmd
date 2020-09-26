@@ -27,7 +27,7 @@ gh_data <- tibble(
   date = as.Date(xml_attr(calendar_days, "data-date")),
   count = xml_attr(calendar_days, "data-count"),
   type = "github",
-  tip = str_glue("{count} contributions"),
+  tip = str_glue("{count} contribuciones"),
   link = str_glue("https://github.com/neuroimaginador?from={date}&to={date}&tab=overview")
 )
 ```
@@ -71,34 +71,34 @@ gh_data <- tibble(
 ```
 
 ```{r, include = FALSE, cache = TRUE}
-## Get pkg releases
-# get_pkgs <- function(search, size = 100) {
-#   url <- str_glue("http://seer.r-pkg.org:9200/_search?q=Maintainer:{search}&size={size}")
-#   res <- jsonlite::read_json(url)
-#   map_chr(res$hits$hits, list("_source", "Package"))
-# }
-# pkgs <- get_pkgs("neuroimaginador")
-# get_releases <- function(data) {
-#   out <- map(set_names(data), ~ crandb::package(.x, "all"))
-#   map_dfr(out, ~ list(version = names(.x$timeline), date = readr::parse_datetime(map_chr(.x$timeline, function(y) y %||% NA_character_))), .id = "package")
-# }
-# pkg_data <- get_releases(get_pkgs("neuroimaginador")) %>%
-#   mutate(
-#     type = "pkg",
-#     link = str_glue("https://CRAN.R-project.org/package={package}"),
-#     tip = str_glue("{package}: {version}"),
-#     date = as.Date(date)
-#   )
+# Get pkg releases
+get_pkgs <- function(search, size = 100) {
+  url <- str_glue("http://seer.r-pkg.org:9200/_search?q=Maintainer:{search}&size={size}")
+  res <- jsonlite::read_json(url)
+  map_chr(res$hits$hits, list("_source", "Package"))
+}
+pkgs <- get_pkgs("dominlopez@uma.es")
+get_releases <- function(data) {
+  out <- map(set_names(data), ~ crandb::package(.x, "all"))
+  map_dfr(out, ~ list(version = names(.x$timeline), date = readr::parse_datetime(map_chr(.x$timeline, function(y) y %||% NA_character_))), .id = "package")
+}
+pkg_data <- get_releases(pkgs) %>%
+  mutate(
+    type = "pkg",
+    link = str_glue("https://CRAN.R-project.org/package={package}"),
+    tip = str_glue("{package}: {version}"),
+    date = as.Date(date)
+  )
 ```
 
 ```{r, include = FALSE}
 ## Join all data together
 all_data <- bind_rows(
-  select(filter(gh_data, count > 0), date, type, tip, link, count)) #,
+  select(filter(gh_data, count > 0), date, type, tip, link, count), 
   # select(talk_data, date, type, tip, link),
-  # select(pkg_data, date, type, tip, link),
+  select(pkg_data, date, type, tip, link)
   # select(post_data, date, type, tip, link)
-# )
+)
 empty_days <- filter(gh_data, count == 0, !(date %in% all_data$date)) %>% mutate(type = NA) %>% select(date, type)
 all_data <- bind_rows(
   all_data,
@@ -115,14 +115,14 @@ p_data <- filter(all_data, date > today() - years(1)) %>%
     type = factor(type, levels = c("github", "video", "post", "talk", "workshop", "pkg")),
     on_click = str_glue('window.location.assign("{link}")'),
     data_id = ifelse(!is.na(type), as.character(seq_along(x)), NA_character_),
-    tip = str_glue("<b>{tip}</b> on {date}")
+    tip = str_glue("<b>{tip}</b> el {date}")
   )
 counts <- count(p_data, type, .drop = FALSE) %>%
   na.omit() %>%
   mutate(
-    n = case_when(
-      type == "github" ~ count(p_data, type, wt = as.integer(count)) %>% na.omit() %>% pull(),
-      TRUE ~ n),
+    # n = case_when(
+      # type == "github" ~ (count(p_data, type, wt = as.integer(count)) %>% na.omit() %>% pull()),
+      # TRUE ~ n),
     emoji = c("💻", "📹", "📋", "📽", "⚒", "📦"),
     nice = c("GitHub", "videos", "posts", "talks", "workshops", "CRAN"),
     label = str_glue("{scales::comma_format()(n)} {emoji}\n{nice}")

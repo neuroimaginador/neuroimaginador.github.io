@@ -204,15 +204,6 @@
     
     <url>
     
-      <loc>/tags/data-mining/</loc>
-      <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/categories/data-mining/</loc>
       <lastmod>2019-09-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -222,7 +213,7 @@
     
     <url>
     
-      <loc>/tags/sustainability/</loc>
+      <loc>/tags/data-mining/</loc>
       <lastmod>2019-09-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -232,6 +223,15 @@
     <url>
     
       <loc>/categories/sustainability/</loc>
+      <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/sustainability/</loc>
       <lastmod>2019-09-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
