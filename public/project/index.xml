@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Análisis e implementación de estrategias de enseñanza-aprendizaje en asignaturas de Matemáticas mediante detección de dependencias entre contenidos</title>
+      <link>/project/2019-pie-clustering/2019-pie1/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2019-pie-clustering/2019-pie1/</guid>
+      <description>Desde hace varios años la investigación en ​Educational Data Mining​, que tiene como objetivo el encontrar patrones en datos educacionales, se ha incrementado de forma sustancial. En este sentido, la aplicación de técnicas de Ciencia de Datos es muy conveniente para la extracción de conocimiento implícito en los cursos de enseñanza semi-presencial como el que usamos en nuestra Universidad (Moodle).
+El uso de técnicas tales como agrupamiento, regresión, series temporales, etc, para la extracción de reglas entre datos educacionales, permiten visualizar importantes patrones que detecten deficiencias o vislumbren posibles mejoras en las herramientas de evaluación utilizadas en los cursos Moodle.</description>
+    </item>
+    
+    <item>
       <title>FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources</title>
       <link>/project/2019-flair/2019-flair/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
