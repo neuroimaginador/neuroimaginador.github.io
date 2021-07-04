@@ -2,7 +2,7 @@
 abstract = "FCA exhaustively uses the notion of cluster by grouping attributes and objects and providing a solid algebraic structure to them through the concept lattice. Our proposal explores how we can cluster implications.  This work opens a research line to study the knowledge inside the clusters computed from the Duquenne-Guigues basis. Some alternative measures to induce the clusters are analysed, taking into account the information that directly appears in the appearance  and the semantics of the implications.  This work also allows us to show the fcaR package,   which has the main methods of FCA and the Simplification Logic.  The paper ends with a motivation of the potential applications of performing clustering on the implications."
 
 authors = ["D. López-Rodríguez", "P. Cordero", "M. Enciso", "A. Mora"]
-date = "2019-07-01"
+date = "2021-07-01"
 image_preview = "2clusters.jpeg"
 math = true
 publication_types = ["1"]
