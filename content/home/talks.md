@@ -1,25 +1,42 @@
-+++
-# Recent and Upcoming Talks widget.
-widget = "talks"
-active = false
-date = 2016-04-20T00:00:00
+---
+# An instance of the Pages widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: pages
 
-title = "Talks"
-subtitle = ""
+# This file represents a page section.
+headless: true
+active: false
 
-# Order that this section will appear in.
-weight = 30
+# Order that this section appears on the page.
+weight: 70
 
-# Number of talks to list.
-count = 10
+title: 'Recent & Upcoming Talks'
+subtitle:
 
-# List format.
-#   0 = Simple
-#   1 = Detailed
-#   2 = Stream
-list_format = 2
+content:
+  # Page type to display. E.g. post, event, publication...
+  page_type: event
+  # Choose how many pages you would like to display (0 = all pages)
+  count: 5
+  # Filter on criteria
+  filters:
+    author: ""
+    category: ""
+    tag: ""
+    exclude_featured: false
+    exclude_future: false
+    exclude_past: false
+    publication_type: ""
+  # Choose how many pages you would like to offset by
+  offset: 0
+  # Page order: descending (desc) or ascending (asc) date.
+  order: desc
 
-# Exclude talks that are shown in the Selected Talks widget?
-exclude_selected = false
-+++
-
+design:
+  # Choose a view for the listings:
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view: 2
+---
