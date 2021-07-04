@@ -14,7 +14,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = "pdf/2019-cmmse.pdf"
 url_project = ""
-url_slides = "pdf/2019-cmmse-slides.pdf"
+url_slides = "./2019-cmmse-slides.pdf"
 url_video = ""
 
 
