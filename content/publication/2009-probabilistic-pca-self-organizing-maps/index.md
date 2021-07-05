@@ -18,6 +18,7 @@ header:
   image: ''
 image_preview: ''
 math: true
+doi: "10.1109/TNN.2009.2025888"
 publication: In *IEEE Transactions on Neural Networks* vol 20 (9), 1474-1489
 publication_short: ''
 publication_types:
@@ -25,13 +26,16 @@ publication_types:
 selected: false
 title: Probabilistic PCA self-organizing maps
 url_code: ''
-links:
-- name: View Journal Article
-  url: https://ieeexplore.ieee.org/iel5/72/4359168/05204108.pdf
 url_dataset: ''
 url_pdf: 2009-pcasom.pdf
 url_project: ''
 url_slides: ''
 url_video: ''
+
+tags:
+- Principal component Analysis
+- Artificial neural networks
+- Self-organizing map
+- Probability distribution
 ---
 
