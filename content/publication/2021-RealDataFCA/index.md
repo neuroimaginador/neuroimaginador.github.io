@@ -31,5 +31,12 @@ url_pdf: 2021-RealDataFCA.pdf
 url_project: ''
 url_slides: 2021-RealDataFCA-slides.pdf
 url_video: ''
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: [2019-flair]
 ---
 
