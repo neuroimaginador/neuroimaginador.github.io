@@ -27,7 +27,7 @@ selected: false
 title: Probabilistic PCA self-organizing maps
 url_code: ''
 url_dataset: ''
-url_pdf: 2009-pcasom.pdf
+url_pdf: publication/2009-probabilistic-pca-self-organizing-maps/2009-pcasom.pdf
 url_project: ''
 url_slides: ''
 url_video: ''
