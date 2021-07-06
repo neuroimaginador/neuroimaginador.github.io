@@ -32,4 +32,15 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Image compression
+- Image quality
+- Classical methods
+- Competitive network
+- Competitive neural network
+- Compressed images
+- Computational time
+- Image compression techniques
+- Peak signal to noise ratio
+- Artificial intelligence
 ---

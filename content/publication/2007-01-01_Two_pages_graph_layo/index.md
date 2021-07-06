@@ -38,4 +38,13 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Algorithms
+- Computer simulation
+- Graph theory
+- Mathematical models
+- Problem solving
+- Computational time
+- Energy function
+- Recurrent neural networks
 ---

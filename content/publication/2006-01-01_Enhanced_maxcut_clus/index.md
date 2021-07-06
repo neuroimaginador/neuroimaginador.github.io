@@ -7,9 +7,9 @@ authors:
 - admin
 - Juan Miguel Ortiz-de-Lazcano-Lobato
 publication_types: '1'
-publication: ESANN 2006 Proceedings - 14th European Symposium on Artificial Neural Networks,
-  _pp. 25--30_
-publication_short: 'ESANN 2006'
+publication: ESANN 2006 Proceedings - 14th European Symposium on Artificial Neural
+  Networks, _pp. 25--30_
+publication_short: ESANN 2006
 doi: ''
 abstract: In this work a new algorithm to improve the performance of optimization
   methods, by means of avoiding certain local optima, is described. Its theoretical
@@ -32,4 +32,16 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Combinatorial optimization
+- Optimization
+- Combinatorial optimization problems
+- Its efficiencies
+- Local optima
+- MAX-CUT problem
+- Multi-valued
+- NP Complete
+- Optimization method
+- Recurrent models
+- Recurrent neural networks
 ---

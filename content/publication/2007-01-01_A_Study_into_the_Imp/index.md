@@ -36,4 +36,14 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Coloring
+- Graph theory
+- Large scale systems
+- Optimization
+- Problem solving
+- Classic problems
+- Large-scale maps
+- Map coloring
+- Hopfield neural networks
 ---

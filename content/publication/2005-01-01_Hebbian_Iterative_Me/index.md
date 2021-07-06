@@ -6,8 +6,10 @@ authors:
 - E. Mérida-Casermeiro
 - admin
 publication_types: '1'
-publication: 11th Conference of the Spanish Association for Artificial Intelligence (CAEPIA) 2005, Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4177), _pp. 241--250_
-publication_short: 'CAEPIA 2005'
+publication: 11th Conference of the Spanish Association for Artificial Intelligence
+  (CAEPIA) 2005, Lecture Notes in Computer Science (including subseries Lecture Notes
+  in Artificial Intelligence and Lecture Notes in Bioinformatics), (4177), _pp. 241--250_
+publication_short: CAEPIA 2005
 doi: 10.1007/11881216_26
 abstract: 'In this paper, two important issues concerning pattern recognition by neural
   networks are studied: a new model of hebbian learning, as well as the effect of
@@ -34,4 +36,13 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Database systems
+- Iterative methods
+- Learning systems
+- Neural networks
+- Discrete recurrent networks
+- Hebbian iterative method
+- Retrieving patterns
+- Pattern recognition
 ---

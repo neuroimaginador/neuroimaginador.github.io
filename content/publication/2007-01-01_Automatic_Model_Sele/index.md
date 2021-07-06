@@ -36,4 +36,13 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Approximation theory
+- Bayesian networks
+- Gaussian distribution
+- Mathematical models
+- Probability density function
+- Multivariate analysis
+- Optimal model selection
+- Principal component analysis
 ---

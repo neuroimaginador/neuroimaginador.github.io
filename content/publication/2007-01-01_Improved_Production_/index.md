@@ -36,4 +36,13 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Mathematical models
+- Perturbation techniques
+- Vector quantization
+- Competitive learning
+- Distortion function
+- Learning rules
+- Specialized literature
+- Learning systems
 ---

@@ -15,13 +15,13 @@ header:
   caption: ''
   image: HIS2008.png
 image_preview: ''
-math: true
-publication: "Eighth International Conference on Hybrid Intelligent Systems (HIS) 2008: 667-671"
-publication_short: 'HIS 2008'
-publication_types:
-- '1'
-doi: "10.1109/his.2008.89"
-selected: false
+math: yes
+publication: 'Eighth International Conference on Hybrid Intelligent Systems (HIS)
+  2008: 667-671'
+publication_short: HIS 2008
+publication_types: '1'
+doi: 10.1109/his.2008.89
+selected: no
 title: Drawing Graphs in Parallel Lines with Artificial Neural Networks
 url_code: ''
 url_dataset: ''
@@ -32,12 +32,24 @@ url_video: ''
 links:
 - name: Download PDF
   url: paper.pdf
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
+tags:
+- Drawing (graphics)
+- Graph theory
+- Heuristic methods
+- Image classification
+- Intelligent control
+- Intelligent systems
+- Problem solving
+- Recurrent neural networks
+- Vegetation
+- Artificial neural networks
+- Discrete vectors
+- Experimental simulations
+- Heuristic approaches
+- Neural models
+- Of graphs
+- Optimization problems
+- Parallel lines
+- Neural networks
 ---
-

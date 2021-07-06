@@ -36,4 +36,22 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Data sets
+- Gaussian density
+- Input sample
+- Kernel density
+- Local kernel
+- Mixture components
+- Multivariate distributions
+- Multivariate Student
+- Non-parametric
+- Parzen windows
+- Probability density estimation
+- Soft clustering
+- Backpropagation
+- Neural networks
+- Probability distributions
+- Windows
+- Probability density function
 ---

@@ -34,4 +34,18 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Computational complexity
+- Face recognition
+- Mathematical models
+- Probability density function
+- Self organizing maps
+- Unsupervised learning
+- Competitive learning
+- Dimensionality reduction
+- Handwritten digit recognition
+- Linear complexity
+- Probabilistic model
+- Probabilistic Principal Components Analysis (PPCA)
+- Principal component analysis
 ---

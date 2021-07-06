@@ -7,9 +7,10 @@ authors:
 - Juan Miguel Ortiz-de-Lazcano-Lobato
 - Ezequiel López-Rubio
 publication_types: '1'
-publication: Artificial Neural Networks - (ICANN) 2006, 16th International Conference, Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics), (4132), _pp. 595--605_
-publication_short: 'ICANN 2006'
+publication: Artificial Neural Networks - (ICANN) 2006, 16th International Conference,
+  Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4132), _pp. 595--605_
+publication_short: ICANN 2006
 doi: 10.1007/11840930_62
 abstract: In this work we propose a recurrent multivalued network, generalizing Hopfield's
   model, which can be interpreted as a vector quantifier. We explain the model and
@@ -33,4 +34,15 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Algorithms
+- Learning systems
+- Mathematical models
+- Recurrent neural networks
+- Vector quantization
+- Classical algorithm
+- Hopfield's model
+- Sum-of-squares clustering
+- Vector quantifier
+- Image compression
 ---

@@ -35,4 +35,23 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Adaptive neighborhood
+- Background model
+- Competitive network
+- Competitive neural network
+- Frame rate
+- Hardware implementations
+- Mixture of Gaussians
+- Object Detection
+- Pixel level
+- Realtime processing
+- Segmentation performance
+- Synaptic weight
+- Video segmentation
+- Algorithms
+- Backpropagation
+- Hardware
+- Image segmentation
+- Neural networks
 ---

@@ -34,4 +34,14 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Computational efficiency
+- Convergence of numerical methods
+- Finite difference method
+- Hopfield neural networks
+- Traveling salesman problem
+- Discrete neural networks
+- Stochastic functional annealing
+- Stochastic methods
+- Stochastic models
 ---

@@ -34,4 +34,17 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Background model
+- Background subtraction method
+- Competitive neural network
+- Data sets
+- Hardware implementations
+- Mixture of Gaussians
+- Realtime processing
+- Video segmentation
+- Hardware
+- Image segmentation
+- Pixels
+- Neural networks
 ---

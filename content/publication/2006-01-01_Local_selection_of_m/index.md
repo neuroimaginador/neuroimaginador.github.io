@@ -8,9 +8,9 @@ authors:
 - E. Mérida-Casermeiro
 - M. Del Carmen Vargas-González
 publication_types: '1'
-publication: Artificial Neural Networks - (ICANN) 2006, 16th International Conference, Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics), (4132 LNCS - II),
-  _pp. 292-301_
+publication: Artificial Neural Networks - (ICANN) 2006, 16th International Conference,
+  Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4132 LNCS - II), _pp. 292-301_
 publication_short: ''
 doi: 10.1007/11840930_30
 abstract: Here we present a novel probability density estimation model. The classical
@@ -33,4 +33,14 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Gaussian noise (electronic)
+- Mathematical models
+- Parameter estimation
+- Signal noise measurement
+- Automated estimation
+- Local intrinsic dimensionality
+- Local noise variance
+- Parzen window approach
+- Probability density function
 ---

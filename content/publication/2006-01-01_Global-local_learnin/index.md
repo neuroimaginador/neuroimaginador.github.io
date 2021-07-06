@@ -32,4 +32,22 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Artificial intelligence
+- Education
+- Neural networks
+- Probability
+- Soft computing
+- Basis vectors
+- Competition rules
+- Competitive learning
+- Competitive learnings
+- Learning processes
+- Local learning strategies
+- Local PCA
+- Neural models
+- Pca models
+- Principal components analyses
+- Principal directions
+- Principal component analysis
 ---

@@ -34,4 +34,5 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags: []
 ---

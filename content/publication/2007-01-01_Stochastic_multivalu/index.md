@@ -33,4 +33,14 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Computational efficiency
+- Graph theory
+- Mathematical models
+- Optimization
+- Stochastic models
+- Graph partition
+- Local minima
+- Stochastic dynamics
+- Neural networks
 ---

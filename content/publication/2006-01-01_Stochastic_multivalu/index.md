@@ -34,4 +34,19 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Artificial intelligence
+- Interactive computer systems
+- Neural networks
+- Optimization
+- Stochastic models
+- Computational experiment
+- Energy functions
+- Graph problems
+- Multi-valued networks
+- Objective functions
+- Optimization problems
+- Optimization techniques
+- Stochastic dynamics
+- Stochastic systems
 ---

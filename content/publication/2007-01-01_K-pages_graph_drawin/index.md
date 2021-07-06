@@ -7,9 +7,9 @@ authors:
 - J.M. Ortíz-de-Lazcano-Lobato
 - G. Galán-Marín
 publication_types: '1'
-publication: Artificial Neural Networks - {ICANN} 2007, 17th International Conference, Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics), (4669 LNCS), PART
-  2, _pp. 816-825_
+publication: Artificial Neural Networks - {ICANN} 2007, 17th International Conference,
+  Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4669 LNCS), PART 2, _pp. 816-825_
 publication_short: ''
 doi: 10.1007/978-3-540-74695-9_84
 abstract: In this paper, the K-pages graph layout problem is solved by a new neural
@@ -37,4 +37,16 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Algorithms
+- Edge detection
+- Function evaluation
+- Graph theory
+- Heuristic methods
+- Mathematical models
+- Efficient algorithms
+- Energy functions
+- Multivalued neural networks
+- Neural models
+- Multilayer neural networks
 ---

@@ -39,4 +39,12 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Learning systems
+- Pattern recognition
+- Probability
+- Problem solving
+- Linear dependence
+- Reference points
+- Computation theory
 ---

@@ -5,8 +5,9 @@ authors:
 - Enrique Mérida Casermeiro
 - admin
 publication_types: '1'
-publication: International Work-Conference on Artificial Neural Networks (IWANN) 2005, Lecture Notes in Computer Science, (3512), _pp. 1149--1156_
-publication_short: 'IWANN 2005'
+publication: International Work-Conference on Artificial Neural Networks (IWANN) 2005,
+  Lecture Notes in Computer Science, (3512), _pp. 1149--1156_
+publication_short: IWANN 2005
 doi: 10.1007/11494669_141
 abstract: 'In this work, the well-known Graph Partitioning (GP) problem for undirected
   weighted graphs has been studied from two points of view: maximizing (MaxCut) or
@@ -32,4 +33,15 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Algorithms
+- Computational methods
+- Computer simulation
+- Graph theory
+- Optimization
+- Problem solving
+- Computational time
+- Graph partitioning
+- Optimization problems
+- Neural networks
 ---

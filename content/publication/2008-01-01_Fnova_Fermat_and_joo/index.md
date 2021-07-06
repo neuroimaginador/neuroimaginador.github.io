@@ -43,4 +43,37 @@ projects: ''
 selected: no
 url_slides: ''
 image_preview: ''
+tags:
+- Applied mathematics
+- Bologna declarations
+- Class notes
+- Classical models
+- Discrete mathematics
+- Educational environments
+- ESHE
+- Higher educations
+- Joomla!
+- Mathematics
+- Moodle
+- Multi-media technologies
+- New tools
+- On-line resources
+- Practical problems
+- Telecommunication engineerings
+- Vectorial analysis
+- Web sites
+- Algebra
+- Communication
+- Differentiation (calculus)
+- E-learning
+- Education computing
+- Image communication systems
+- Internet
+- Motion compensation
+- Numerical methods
+- Students
+- Teaching
+- Visual communication
+- World Wide Web
+- Multimedia systems
 ---
