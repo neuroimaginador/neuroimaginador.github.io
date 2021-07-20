@@ -22,7 +22,8 @@ doi: 10.1007/978-3-642-04921-7_7
 publication: International Conference on Adaptive and Natural Computing Algorithms
   2009, pp 109 -- 118
 publication_short: ICANNGA 2009
-publication_types: '1'
+publication_types: 
+- '1'
 selected: no
 title: Growing Competitive Network for Tracking Objects in Video Sequences
 url_code: ''

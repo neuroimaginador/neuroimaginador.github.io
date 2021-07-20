@@ -6,7 +6,8 @@ authors:
 - Enrique Mérida Casermeiro
 - admin
 - Juan Miguel Ortiz-de-Lazcano-Lobato
-publication_types: '1'
+publication_types: 
+- '1'
 publication: ESANN 2006 Proceedings - 14th European Symposium on Artificial Neural
   Networks, _pp. 25--30_
 publication_short: ESANN 2006

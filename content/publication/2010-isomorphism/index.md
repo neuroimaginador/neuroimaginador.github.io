@@ -13,7 +13,8 @@ header:
 image_preview: ''
 math: yes
 publishDate: '2010-03-01'
-publication_types: '2'
+publication_types: 
+- '2'
 publication: '*Journal of Computing and Information Science in Engineering* 10(1) '
 publication_short: '*J. Comput. Inf. Sci. Eng.*'
 abstract: A lot of methods have been proposed for the kinematic chain isomorphism

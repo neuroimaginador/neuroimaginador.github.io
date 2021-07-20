@@ -7,11 +7,12 @@ authors:
 - admin
 - Gloria Galán Marín
 - Juan Miguel Ortiz-de-Lazcano-Lobato
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Lecture Notes in Computer Science (including subseries Lecture Notes
   in Artificial Intelligence and Lecture Notes in Bioinformatics), (4431), PART 1,
   _pp. 461--469_
-publication_short: ''
+publication_short: 'ICANNGA 2007'
 doi: 10.1007/978-3-540-71618-1_51
 abstract: In this work, a general framework for developing learning rules with an
   added term (perturbation term) is presented. Many learning rules commonly cited

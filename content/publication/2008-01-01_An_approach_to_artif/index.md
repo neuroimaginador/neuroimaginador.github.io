@@ -6,7 +6,8 @@ authors:
 - E. Mérida-Casermeiro
 - admin
 - J.M. Ortiz-de-Lazcano-Lobato
-publication_types: '0'
+publication_types: 
+- '6'
 publication: Advancing Artificial Intelligence Through Biological Process Applications,
   _pp. 130-145_
 publication_short: ''
@@ -23,7 +24,7 @@ abstract: 'In this chapter, two important issues concerning associative memory b
   to improve the quality of the clustering, by enhancing the learning of patterns
   relationships. As a related issue, a study on the net capacity, depending on the
   number of neurons and possible outputs, is presented, and some interesting conclusions
-  are commented. © 2009, IGI Global.'
+  are commented.'
 math: yes
 highlight: yes
 header:

@@ -6,7 +6,8 @@ authors:
 - admin
 - E. Mérida-Casermeiro
 - J.M. Ortiz-De-Lazcano-Lobato
-publication_types: '1'
+publication_types: 
+- '1'
 publication: International Conference on Computational Intelligence, Man-Machine Systems
   and Cybernetics - Proceedings, (1), _pp. 111-116_
 publication_short: ''

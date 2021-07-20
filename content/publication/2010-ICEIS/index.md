@@ -7,7 +7,8 @@ authors:
 date: '2010-07-01'
 doi: 10.5220/0002894500750080
 publishDate: '2010-01-01'
-publication_types: '1'
+publication_types: 
+- '1'
 publication: In *Proceedings of the 12th International Conference on Enterprise Information
   Systems*, Volume 4
 publication_short: In *ICEIS*

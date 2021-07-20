@@ -29,17 +29,22 @@ image_preview: miccai2021-logo.png
 math: true
 publication: 24th International Conference on Medical Image Computing and Computer
   Assisted Intervention (MICCAI) 2021
-publication_short: ''
+publication_short: 'MICCAI 2021'
 publication_types:
 - '1'
 selected: false
-title: Rician noise estimation for 3D Magnetic Resonance Images based on Benford's
-  Law
+title: Rician noise estimation for 3D Magnetic Resonance Images based on Benford's Law
 url_code: ''
 url_dataset: ''
 url_pdf: 2021-miccai.pdf
 url_project: ''
 url_slides: ''
 url_video: ''
+
+tags:
+- MRI
+- Rician noise
+- Benford’s law
+- Noise estimation 
 ---
 

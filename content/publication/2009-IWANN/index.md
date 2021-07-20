@@ -28,7 +28,8 @@ math: yes
 publication: International Work-conference on Artificial Neural Networks (IWANN) pp
   432-439
 publication_short: IWANN09
-publication_types: '1'
+publication_types: 
+- '1'
 selected: no
 title: Hierarchical Graphs for Data Clustering
 doi: 10.1007/978-3-642-02478-8_54

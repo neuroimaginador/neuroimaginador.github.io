@@ -19,7 +19,8 @@ math: yes
 publication: 'Eighth International Conference on Hybrid Intelligent Systems (HIS)
   2008: 667-671'
 publication_short: HIS 2008
-publication_types: '1'
+publication_types: 
+- '1'
 doi: 10.1109/his.2008.89
 selected: no
 title: Drawing Graphs in Parallel Lines with Artificial Neural Networks

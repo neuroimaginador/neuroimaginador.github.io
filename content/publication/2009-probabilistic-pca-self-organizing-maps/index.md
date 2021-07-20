@@ -21,7 +21,8 @@ math: yes
 doi: 10.1109/TNN.2009.2025888
 publication: In *IEEE Transactions on Neural Networks* vol 20 (9), 1474-1489
 publication_short: ''
-publication_types: '2'
+publication_types: 
+- '2'
 selected: no
 title: Probabilistic PCA self-organizing maps
 url_code: ''

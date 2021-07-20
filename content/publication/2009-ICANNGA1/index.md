@@ -20,7 +20,8 @@ doi: 10.1007/978-3-642-04921-7_7
 publication: International Conference on Adaptive and Natural Computing Algorithms
   2009, pp 62 -- 71
 publication_short: ICANNGA 2009
-publication_types: '1'
+publication_types: 
+- '1'
 selected: no
 title: Shortest Common Superstring Problem with Discrete Neural Networks
 url_code: ''

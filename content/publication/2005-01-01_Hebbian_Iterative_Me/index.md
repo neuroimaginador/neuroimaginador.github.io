@@ -5,7 +5,8 @@ date: '2005-11-01'
 authors:
 - E. Mérida-Casermeiro
 - admin
-publication_types: '1'
+publication_types: 
+- '1'
 publication: 11th Conference of the Spanish Association for Artificial Intelligence
   (CAEPIA) 2005, Lecture Notes in Computer Science (including subseries Lecture Notes
   in Artificial Intelligence and Lecture Notes in Bioinformatics), (4177), _pp. 241--250_

@@ -7,7 +7,8 @@ authors:
 - admin
 - E. Mérida-Casermeiro
 - M.D.C. Vargas-González
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Proceedings of the 10th IASTED International Conference on Artificial
   Intelligence and Soft Computing, ASC 2006, _pp. 46-51_
 publication_short: ''

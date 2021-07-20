@@ -6,7 +6,8 @@ authors:
 - J.M. Ortiz-De-Lazcano-Lobato
 - admin
 - M. Del Carmen Vargas-González
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Lecture Notes in Computer Science (including subseries Lecture Notes
   in Artificial Intelligence and Lecture Notes in Bioinformatics), (4507 LNCS), _pp.
   211-218_

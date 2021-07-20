@@ -21,7 +21,8 @@ math: yes
 publication: 'Eighth International Conference on Hybrid Intelligent Systems (HIS)
   2008: 613-618'
 publication_short: HIS 2008
-publication_types: '1'
+publication_types: 
+- '1'
 doi: 10.1109/his.2008.130
 selected: no
 title: Video Object Segmentation with Multivalued Neural Networks

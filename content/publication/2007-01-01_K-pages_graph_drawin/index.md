@@ -6,7 +6,8 @@ authors:
 - E. Mérida-Casermeiro
 - J.M. Ortíz-de-Lazcano-Lobato
 - G. Galán-Marín
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Artificial Neural Networks - {ICANN} 2007, 17th International Conference,
   Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
   Intelligence and Lecture Notes in Bioinformatics), (4669 LNCS), PART 2, _pp. 816-825_

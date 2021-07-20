@@ -5,7 +5,8 @@ authors:
 - Enrique Mérida Casermeiro
 - admin
 - Juan Miguel Ortiz-de-Lazcano-Lobato
-publication_types: '1'
+publication_types: 
+- '1'
 publication: IFIP International Federation for Information Processing, (247), _pp.
   339--346_
 publication_short: ''

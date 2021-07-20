@@ -8,7 +8,8 @@ authors:
 - A. Mora-Bonilla
 - admin
 - E. Mérida-Casermeiro
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Proceedings of the IASTED International Conference on Internet and Multimedia
   Systems and Applications and Visual Communications, _pp. 15-20_
 publication_short: ''

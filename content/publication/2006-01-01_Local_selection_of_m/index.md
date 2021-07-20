@@ -7,7 +7,8 @@ authors:
 - admin
 - E. Mérida-Casermeiro
 - M. Del Carmen Vargas-González
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Artificial Neural Networks - (ICANN) 2006, 16th International Conference,
   Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
   Intelligence and Lecture Notes in Bioinformatics), (4132 LNCS - II), _pp. 292-301_

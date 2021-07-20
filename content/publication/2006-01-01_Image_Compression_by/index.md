@@ -6,7 +6,8 @@ authors:
 - Enrique Mérida Casermeiro
 - Juan Miguel Ortiz-de-Lazcano-Lobato
 - Ezequiel López-Rubio
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Artificial Neural Networks - (ICANN) 2006, 16th International Conference,
   Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
   Intelligence and Lecture Notes in Bioinformatics), (4132), _pp. 595--605_

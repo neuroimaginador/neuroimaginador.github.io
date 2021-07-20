@@ -6,7 +6,8 @@ authors:
 - E. Mérida-Casermeiro
 - admin
 - J.M. Ortiz-De-Lazcano-Lobato
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Lecture Notes in Computer Science (including subseries Lecture Notes
   in Artificial Intelligence and Lecture Notes in Bioinformatics), (4432 LNCS), PART
   2, _pp. 98-106_

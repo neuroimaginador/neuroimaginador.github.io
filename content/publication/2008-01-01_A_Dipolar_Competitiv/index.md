@@ -6,7 +6,8 @@ authors:
 - admin
 - Enrique Domínguez
 - Esteban J. Palomo
-publication_types: '1'
+publication_types: 
+- '1'
 publication: Lecture Notes in Computer Science (including subseries Lecture Notes
   in Artificial Intelligence and Lecture Notes in Bioinformatics), (5290 LNAI), _pp.
   103-112_

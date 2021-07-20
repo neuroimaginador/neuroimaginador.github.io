@@ -5,7 +5,8 @@ authors:
 - admin
 - Enrique Mérida Casermeiro
 - Juan Miguel Ortiz-de-Lazcano-Lobato
-publication_types: '1'
+publication_types: 
+- '1'
 publication: International Enformatika Conference, IEC'05, August 26-28, 2005, Prague,
   Czech Republic, , _pp. 62--67_
 publication_short: IEC 2005

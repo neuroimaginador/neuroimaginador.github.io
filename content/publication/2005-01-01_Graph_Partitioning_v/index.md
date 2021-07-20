@@ -4,7 +4,8 @@ date: '2005-01-01'
 authors:
 - Enrique Mérida Casermeiro
 - admin
-publication_types: '1'
+publication_types: 
+- '1'
 publication: International Work-Conference on Artificial Neural Networks (IWANN) 2005,
   Lecture Notes in Computer Science, (3512), _pp. 1149--1156_
 publication_short: IWANN 2005

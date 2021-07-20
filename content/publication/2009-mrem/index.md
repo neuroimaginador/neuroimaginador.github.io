@@ -7,7 +7,8 @@ authors:
 date: '2009-09-07'
 doi: ''
 publishDate: '2017-01-01T00:00:00Z'
-publication_types: '6'
+publication_types: 
+- '6'
 publication: 'Encyclopedia of Artificial Intelligence 2009: 1112-1120'
 publication_short: ''
 abstract: Since McCulloch and Pitts’ seminal work (McCulloch & Pitts, 1943), several

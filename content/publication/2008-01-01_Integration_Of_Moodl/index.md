@@ -6,7 +6,8 @@ authors:
 - Enrique Mérida Casermeiro
 - admin
 - Luis Fernando López Anguita
-publication_types: '0'
+publication_types: 
+- '1'
 publication: '{IADIS} International Conference e-Learning 2008, Amsterdam, The Netherlands,
   July 22-25, 2008. Proceedings, _pp. 45--52_'
 publication_short: ''
