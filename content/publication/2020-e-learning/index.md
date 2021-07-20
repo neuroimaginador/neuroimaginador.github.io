@@ -38,7 +38,7 @@ url_video: ''
 links:
 - name: View in site
   url: http://www.iadisportal.org/digital-library/using-formal-concept-analysis-to-explore-hidden-knowledge-in-the-assessment-of-a-math-course
-projects: 2019-pie1
+projects: [2019-pie1]
 tags:
 - E-learning
 - Information analysis
