@@ -15,7 +15,7 @@ image:
   preview_only: false
 ---
 
-Desde hace varios años la investigación en ​Educational Data Mining​, que tiene como objetivo el encontrar patrones en datos educacionales, se ha incrementado de forma sustancial. En este sentido, la aplicación de técnicas de Ciencia de Datos es muy conveniente para la extracción de conocimiento implícito en los cursos de enseñanza semi-presencial como el que usamos en nuestra Universidad (Moodle).
+Desde hace varios años la investigación en Educational Data Mining, que tiene como objetivo el encontrar patrones en datos educacionales, se ha incrementado de forma sustancial. En este sentido, la aplicación de técnicas de Ciencia de Datos es muy conveniente para la extracción de conocimiento implícito en los cursos de enseñanza semi-presencial como el que usamos en nuestra Universidad (Moodle).
 
 El uso de técnicas tales como agrupamiento, regresión, series temporales, etc, para la extracción de reglas entre datos educacionales, permiten visualizar importantes patrones que detecten deficiencias o vislumbren posibles mejoras en las herramientas de evaluación utilizadas en los cursos Moodle.
 

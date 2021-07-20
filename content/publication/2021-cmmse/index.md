@@ -28,10 +28,10 @@ authors:
 - M. Enciso
 - admin
 - A. Mora
-date: '2021-07-22'
+date: '2021-07-20'
 header:
   caption: ''
-  image: ''
+  image: 'cmmse21.png'
 image_preview: ''
 math: true
 publication: International Conference on Computational and Mathematical Methods in
@@ -45,8 +45,8 @@ url_code: ''
 url_dataset: ''
 url_pdf: 2021-cmmse.pdf
 url_project: ''
-url_slides: ''
-url_video: ''
+url_slides: main.pdf
+url_video: TopicModelling.m4v
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
