@@ -7,13 +7,13 @@ weight: 60
 widget: custom
 headless: true  # This file represents a page section.
 ---
-Curso 2020-2021:
+Curso 2021-2022:
 
 - Primer Semestre:
   - [Cálculo y Análisis Vectorial](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52196/) en los Grados de Ingeniería de Sistemas de Telecomunicación, de Sonido e Imagen, de Sistemas Electrónicos y de Telemática.
   - [Ingeniería y Ciencia de Datos I](https://www.uma.es/centers/subject/etsi-informatica/5296/102675/) en el Máster en Ingeniería Informática en la Escuela de Informática.
 - Segundo Semestre:
-  - La parte de Numérico de [Estadística y Métodos Numéricos](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52202/) en los Grados de Ingeniería de Sonido e Imagen y de Telemática.
+  - La parte de Numérico de [Estadística y Métodos Numéricos](https://www.uma.es/centers/subject/etsi-de-telecomunicacion/5108/52202/) en el Grado de Ingeniería de Sonido e Imagen.
 
 También:
 
