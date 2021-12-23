@@ -11,7 +11,7 @@ publication_types:
 - '1'
 publication: In *Proceedings of the 12th International Conference on Enterprise Information
   Systems*, Volume 4
-publication_short: In *ICEIS*
+publication_short: In *ICEIS* 2010.
 abstract: 'Moodle is one of the most extended LMS. Moodle allows the collaborative
   learning where students and teachers collaborate on the daily work. But problems
   with Moodle arise in our scientific context. Although Moodle can preview LaTeX code,
