@@ -1,11 +1,10 @@
 ---
-title: "A Novel Competitive Network Approach to Object Tracking"
+title: "Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut"
 authors:
-- Juan M. Ortiz-de-Lazcano-Lobato
-- Rafael M. Luque
 - admin
-- Esteban J. Palomo
-date: "2008-01-01"
+- Enrique Mérida-Casermeiro
+- Juan Miguel Ortiz de Lazcano Lobato
+date: "2007-07-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -18,20 +17,20 @@ doi: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 2008 UK Workshop on Computational Intelligence*
-publication_short: In *UK Workshop on Computational Intelligence*
+publication: In *Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados 2007*
+publication_short: In *MAEB 2007*
 
-abstract: The aim of this paper is to present a novel method for tracking moving objects for video-surveillance. It is based on a growing competitive neural network where the number of neurons can be automatically increased or decreased in order to get a one-to-one association between objects currently in the scene and neurons. This association is kept in each frame, what constitutes the foundations of this tracking system. Experiments show that our method is capable to accurately track objects in real-world video sequences.
+abstract: 
+
 
 tags:
-- Video object segmentation
+- Optimization
+- Graph problems
 - Neural networks
 featured: false
 
-#links:
-#- name: Download PDF
-#  url: publication/2008-a_novel_competitive/2008-A_Novel.pdf
-url_pdf: "publication/2008-a_novel_competitive/2008-A_Novel.pdf"
+
+url_pdf: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
