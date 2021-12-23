@@ -21,7 +21,7 @@ authors:
 - Karl Thurnhofer-Hemsi
 - admin
 - Ezequiel López-Rubio
-date: '2021-09-27'
+date: 2021-09-27
 header:
   caption: ''
   image: 2021-MICCAI.png
