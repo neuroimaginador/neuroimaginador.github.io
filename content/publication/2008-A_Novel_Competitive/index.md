@@ -28,8 +28,10 @@ tags:
 - Neural networks
 featured: false
 
-links:
-url_pdf: 2008-A_Novel.pdf
+#links:
+#- name: Download PDF
+#  url: publication/2008-a_novel_competitive/2008-A_Novel.pdf
+url_pdf: "publication/2008-a_novel_competitive/2008-A_Novel.pdf"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
