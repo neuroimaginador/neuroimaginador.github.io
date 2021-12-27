@@ -19,7 +19,7 @@ highlight: yes
 header:
   image: ''
   caption: ''
-url_pdf: publication/2008-01-01_fnova_fermat_and_joo/paper.pdf
+url_pdf: publication/2008-fnova/paper.pdf
 projects: ''
 selected: no
 url_slides: ''
