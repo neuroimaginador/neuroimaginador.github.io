@@ -20,7 +20,7 @@ publication_types: ["1"]
 publication: In *Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados 2007*
 publication_short: In *MAEB 2007*
 
-abstract: 
+abstract: El ob jetivo de este trabajo es presentar la versión estocástica del modelo neuronal multivaluado MREM, el cual ha conseguido muy buenos resultados en muchas aplicaciones, como técnica de optimización. El propósito de esta versión estocástica es el de evitar ciertos mínimos locales de la función objetivo minimizada por la red, esto es, la función de energía. Con este fin, describimos las bases teóricas de este nuevo modelo, que nos garantizan la convergencia de la red a un mínimo local, de una forma rigurosa. Para mostrar la eficiencia de esta versión, el modelo, en ambas versiones, determinista y estocástica, ha sido aplicado para resolver el ya conocido problema de la partición de un grafo, MaxCut. Los experimentos computacionales llevados a cabo nos muestran que el modelo estocástico obtiene mejores resultados que el determinista.
 
 
 tags:
@@ -30,7 +30,8 @@ tags:
 featured: false
 
 
-url_pdf: ""
+url_pdf: publication/2007-maeb-maxcut/maeb_maxcut.pdf
+url_slides: publication/2007-maeb-maxcut/maeb_talk.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
