@@ -1,11 +1,8 @@
 ---
 title: "A Pedagogical Simulation of Maxwell's Demon"
 authors:
-- Carlos Criado
 - admin
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+- Carlos Criado
 date: "2004-11-01T00:00:00Z"
 doi: "10.1021/ed081p1679.2"
 
