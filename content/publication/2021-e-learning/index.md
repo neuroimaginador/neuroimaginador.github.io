@@ -18,15 +18,7 @@ publication_types:
 selected: false
 title: Using Logic to Determine Key Items in Math Education
 
-url_code: ''
-url_dataset: ''
 url_pdf: 2021-e-learning.pdf
-url_project: ''
-url_slides: ''
-url_video: ''
-links:
-- name: View in site
-  url: "#"
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
