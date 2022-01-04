@@ -31,7 +31,7 @@ title: Using Formal Concept Analysis to Explore Hidden Knowledge in the Assessme
   of a Math Course
 url_code: ''
 url_dataset: ''
-url_pdf: paper.pdf
+url_pdf: publication/2020-e-learning/paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''

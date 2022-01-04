@@ -27,7 +27,7 @@ selected: false
 title: Clustering and identification of core implications
 url_code: ''
 url_dataset: ''
-url_pdf: paper.pdf
+url_pdf: publication/2021-icfca/paper.pdf
 url_project: ''
 url_slides: 2021-ICFCA-slides.pdf
 url_video: ''

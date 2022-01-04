@@ -36,7 +36,7 @@ selected: false
 title: Rician noise estimation for 3D Magnetic Resonance Images based on Benford's Law
 url_code: 'https://github.com/icai-uma/RicianNoiseEst_3DMRI_BenfordsLaw.git'
 url_dataset: ''
-url_pdf: paper.pdf
+url_pdf: publication/2021-miccai/paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''

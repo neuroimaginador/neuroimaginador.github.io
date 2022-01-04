@@ -27,7 +27,7 @@ selected: false
 title: How to provide light to COVID data by means of FCA
 url_code: ''
 url_dataset: ''
-url_pdf: paper.pdf
+url_pdf: publication/2021-realdatafca/paper.pdf
 url_project: ''
 url_slides: 2021-RealDataFCA-slides.pdf
 url_video: ''

@@ -26,9 +26,8 @@ publication_types:
 doi: 10.1109/his.2008.130
 selected: no
 title: Video Object Segmentation with Multivalued Neural Networks
-url_code: publication/2008-his1/paper.pdf
 url_dataset: ''
-url_pdf: ''
+url_pdf: publication/2008-his1/paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''

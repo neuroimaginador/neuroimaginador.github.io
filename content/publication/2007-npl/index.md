@@ -30,7 +30,7 @@ links:
 - name: External link
   url: https://link.springer.com/content/pdf/10.1007/s11063-007-9047-8.pdf
 url_dataset: ''
-url_pdf: 2007-improving.pdf
+url_pdf: publication/2007-npl/paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''

@@ -34,7 +34,7 @@ links:
 - name: External link
   url: https://www.sciencedirect.com/science/article/pii/S2210537917302822
 url_dataset: ''
-url_pdf: paper.pdf
+url_pdf: publication/2018-gpu/paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''

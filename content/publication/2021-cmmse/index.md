@@ -43,7 +43,7 @@ selected: false
 title: Topic Modelling in Social Networks with Formal Concept Analysis
 url_code: ''
 url_dataset: ''
-url_pdf: paper.pdf
+url_pdf: publication/2021-cmmse/paper.pdf
 url_project: ''
 url_slides: main.pdf
 url_video: TopicModelling.m4v

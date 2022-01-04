@@ -19,7 +19,7 @@ highlight: yes
 header:
   image: ''
   caption: ''
-url_pdf: publication/2008-fnova/paper.pdf
+url_pdf: publication/2008-euroimsa/paper.pdf
 projects: ''
 selected: no
 url_slides: ''

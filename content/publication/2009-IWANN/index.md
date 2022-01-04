@@ -35,7 +35,7 @@ title: Hierarchical Graphs for Data Clustering
 doi: 10.1007/978-3-642-02478-8_54
 url_code: ''
 url_dataset: ''
-url_pdf: paper.pdf
+url_pdf: publication/2009-iwann/paper.pdf
 url_project: ''
 url_slides: ~
 url_video: ''

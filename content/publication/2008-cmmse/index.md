@@ -28,7 +28,7 @@ tags:
 - Regression
 featured: false
 
-url_pdf: publication/2008-cmmse/paper-pdf
+url_pdf: publication/2008-cmmse/paper.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
