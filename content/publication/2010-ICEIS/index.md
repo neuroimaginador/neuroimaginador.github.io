@@ -26,7 +26,7 @@ abstract: 'Moodle is one of the most extended LMS. Moodle allows the collaborati
   quizzes and questions available in previous courses in Moodle.'
 tags: []
 featured: no
-url_pdf: 2010-ICEIS.pdf
+url_pdf: paper.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

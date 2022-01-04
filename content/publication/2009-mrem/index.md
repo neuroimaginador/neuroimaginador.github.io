@@ -24,6 +24,6 @@ abstract: Since McCulloch and Pitts’ seminal work (McCulloch & Pitts, 1943), s
   optimization problems, focusing specifically on the neural model MREM, since it
   includes many of the multivalued models in the specialized literature.
 tags: []
-url_pdf: publication/2009-mrem/work.pdf
+url_pdf: publication/2009-mrem/paper.pdf
 projects: []
 ---

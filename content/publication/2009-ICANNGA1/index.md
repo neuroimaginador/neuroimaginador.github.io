@@ -26,7 +26,7 @@ selected: no
 title: Shortest Common Superstring Problem with Discrete Neural Networks
 url_code: ''
 url_dataset: ''
-url_pdf: 2009-ICANNGA1.pdf
+url_pdf: paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''

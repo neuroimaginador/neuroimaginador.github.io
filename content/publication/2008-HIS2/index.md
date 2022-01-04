@@ -26,13 +26,10 @@ selected: no
 title: Drawing Graphs in Parallel Lines with Artificial Neural Networks
 url_code: ''
 url_dataset: ''
-url_pdf: ''
+url_pdf: publication/2008-his2/paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''
-links:
-- name: Download PDF
-  url: paper.pdf
 projects: []
 tags:
 - Drawing (graphics)

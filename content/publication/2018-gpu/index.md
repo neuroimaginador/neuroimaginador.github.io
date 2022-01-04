@@ -31,10 +31,10 @@ selected: false
 title: 'Energy-aware acceleration on GPUs: Findings on a bioinformatics benchmark'
 url_code: ''
 links:
-- name: View Journal Article
+- name: External link
   url: https://www.sciencedirect.com/science/article/pii/S2210537917302822
 url_dataset: ''
-url_pdf: 2018-gpu.pdf
+url_pdf: paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''

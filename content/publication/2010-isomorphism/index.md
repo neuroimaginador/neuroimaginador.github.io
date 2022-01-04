@@ -28,7 +28,7 @@ abstract: A lot of methods have been proposed for the kinematic chain isomorphis
   than other recently presented approaches.
 tags: []
 featured: no
-url_pdf: 2010-isomorphism.pdf
+url_pdf: paper.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

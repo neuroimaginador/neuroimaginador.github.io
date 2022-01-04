@@ -32,7 +32,7 @@ tags:
 - Virtual Teaching
 featured: false
 
-url_pdf: publication/2006-m-icte/361-365-pdf
+url_pdf: publication/2006-m-icte/paper.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

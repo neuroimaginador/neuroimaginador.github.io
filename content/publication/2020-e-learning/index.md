@@ -31,12 +31,12 @@ title: Using Formal Concept Analysis to Explore Hidden Knowledge in the Assessme
   of a Math Course
 url_code: ''
 url_dataset: ''
-url_pdf: 2020-e-learning.pdf
+url_pdf: paper.pdf
 url_project: ''
 url_slides: ''
 url_video: ''
 links:
-- name: View in site
+- name: External link
   url: http://www.iadisportal.org/digital-library/using-formal-concept-analysis-to-explore-hidden-knowledge-in-the-assessment-of-a-math-course
 
 projects: [2019-PIE-clustering]

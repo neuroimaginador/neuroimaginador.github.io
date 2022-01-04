@@ -28,7 +28,7 @@ selected: no
 title: Growing Competitive Network for Tracking Objects in Video Sequences
 url_code: ''
 url_dataset: ''
-url_pdf: 2009-ICANNGA2.pdf
+url_pdf: paper.pdf
 url_project: ''
 url_slides: ~
 url_video: ''

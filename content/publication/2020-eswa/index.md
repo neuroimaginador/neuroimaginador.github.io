@@ -33,10 +33,10 @@ selected: false
 title: A conversational recommender system for diagnosis using fuzzy rules
 url_code: ''
 links:
-- name: View Journal Article
+- name: External link
   url: https://www.sciencedirect.com/science/article/abs/pii/S0957417420302736
 url_dataset: ''
-url_pdf: ''
+url_pdf: 'publication/2020-eswa/paper.pdf'
 url_project: ''
 url_slides: ''
 url_video: ''
