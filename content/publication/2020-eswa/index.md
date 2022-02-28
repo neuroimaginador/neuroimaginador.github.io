@@ -26,15 +26,13 @@ header:
 image_preview: ''
 math: true
 publication: In *Expert Systems with Applications*, volume 154, 2020
+doi: 10.1016/j.eswa.2020.113449
 publication_short: ''
 publication_types:
 - '2'
 selected: false
 title: A conversational recommender system for diagnosis using fuzzy rules
 url_code: ''
-links:
-- name: External link
-  url: https://www.sciencedirect.com/science/article/abs/pii/S0957417420302736
 url_dataset: ''
 url_pdf: 'publication/2020-eswa/paper.pdf'
 url_project: ''

@@ -22,6 +22,7 @@ authors:
 - admin
 - Ezequiel López-Rubio
 date: 2021-09-27
+doi: 10.1007/978-3-030-87231-1_33
 header:
   caption: ''
   image: 2021-MICCAI.png
