@@ -1,6 +1,6 @@
 ---
 title: Super-Resolution of 3D Magnetic Resonance Images of the Brain
-date: '2022-03-03'
+date: '2022-02-07'
 authors:
 - Enrique Domínguez
 - admin
