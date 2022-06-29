@@ -30,7 +30,7 @@ tags:
 - R
 featured: true
 
-url_pdf: ''
+url_pdf: publication/2022-etafca/paper.pdf
 url_slides: publication/2022-etafca/slides.pdf
 
 # Featured image
